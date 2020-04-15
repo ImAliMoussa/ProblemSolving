@@ -1,0 +1,2 @@
+g++ -std=c++17 -Wall -Wextra -Wshadow -D_GLIBCXX_DEBUG -fsanitize=address -fsanitize=undefined -fsanitize=signed-integer-overflow -fsanitize=bounds -g main.cpp -o a
+
